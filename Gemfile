@@ -53,3 +53,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rakuten_web_service'
 gem 'dotenv-rails'
+gem 'pry-byebug', group: :development
