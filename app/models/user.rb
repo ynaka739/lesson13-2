@@ -11,7 +11,7 @@ class User < ApplicationRecord
   has_many :wants
   has_many :want_items, through: :wants, class_name: 'Item', source: :item
   
-  has_many :haves
+  has_many :haves, class_name: 'Have'
   has_many :have_items, through: :haves, class_name: 'Item', source: :item
 
   def want(item)
